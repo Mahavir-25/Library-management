@@ -1,6 +1,6 @@
 from userlogin import User
 
-class Laibrary(User):
+class Library(User):
     def __init__(self):
         super().__init__()
         self.books = {
